@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Packages | VibeDeck Events</title>
+    <meta name="description" content="Explore VibeDeck Events DJ booking packages for celebrations, couples, family events and premium VIP experiences.">
+    <meta name="theme-color" content="#090911">
+
+     <link rel="icon" type="image/png" href="Images/Logo1.jfif">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="packages.css">
+</head>
+<body>
+
+    <!-- SAME VIBEDECK HEADER -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <a href="index.html" class="brand" aria-label="VibeDeck Events Home">
+              
+<span class="brand-mark">
+    <img src="Images/Logo1.jfif"
+         alt="VibeDeck Events Logo"
+         class="brand-logo">
+</span>
+
+               <span class="vd-brand-text">
+    <span class="vd-brand-name">VIBEDECK</span>
+    <span class="vd-brand-tagline">EVENT EXPERIENCES</span>
+</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <div class="nav-dropdown" id="homeDropdown">
+                    <button class="nav-link dropdown-toggle" id="homeDropdownBtn" aria-expanded="false">
+                        Home <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="index.html" class="dropdown-link">Home 1 – Classic</a>
+                        <a href="home2.html" class="dropdown-link">Home 2 – Premium</a>
+                    </div>
+                </div>
+                <a href="About.html" class="nav-link">About</a>
+                <a href="servicepage.html" class="nav-link">Services</a>
+                <a href="Packages.html" class="nav-link active">Packages</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="utility-btn" id="themeToggle" aria-label="Toggle dark and light mode" title="Dark / Light mode">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="utility-btn" id="directionToggle" aria-label="Toggle text direction" title="Toggle LTR / RTL">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </button>
+                <a href="Booka event.html" class="btn btn-primary header-book">
+                    Book an Event <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECTION 1: HERO -->
+        <section class="packages-hero">
+            <div class="hero-image"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="section-container hero-content reveal">
+                <span class="eyebrow"><span></span> VIBEDECK EVENT COLLECTION</span>
+                <h1>Find Your <span>Perfect</span><br>Event Experience.</h1>
+                <p>
+                    From intimate celebrations to unforgettable VIP nights,
+                    choose a package that matches your occasion, your crowd
+                    and the energy you want to create.
+                </p>
+                <div class="hero-actions">
+                    <a href="#packages" class="btn btn-primary">
+                        Explore Packages <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                    <a href="contact.html" class="btn btn-outline">
+                        Build a Custom Package
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <span><i class="fa-solid fa-music"></i> Professional DJ</span>
+                    <span><i class="fa-solid fa-volume-high"></i> Premium Sound</span>
+                    <span><i class="fa-solid fa-lightbulb"></i> Lighting Options</span>
+                </div>
+            </div>
+
+        
+        </section>
+
+        <!-- SECTION 2: PACKAGE CARDS -->
+        <section class="packages-section section-space" id="packages">
+            <div class="section-container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow"><span></span> MADE FOR YOUR MOMENT</span>
+                    <h2>Choose Your <span>Vibe.</span></h2>
+                    <p>Start with a package and customize the details to fit your event.</p>
+                </div>
+
+                <div class="package-grid">
+                    <article class="package-card reveal">
+                        <div class="package-top">
+                            <span class="package-number">01 / SOLO</span>
+                            <span class="package-icon"><i class="fa-solid fa-compact-disc"></i></span>
+                        </div>
+                        <p class="package-label">SMALL & PERSONAL</p>
+                        <h3>Single Celebration</h3>
+                        <p class="package-description">
+                            A lively music experience for birthdays, small parties
+                            and personal celebrations.
+                        </p>
+                        <div class="package-price">
+                            <span>Starting from</span>
+                            <strong>₹4,999<small>+</small></strong>
+                        </div>
+                        <div class="package-divider"></div>
+                        <ul class="package-features">
+                            <li><i class="fa-solid fa-check"></i> Professional DJ service</li>
+                            <li><i class="fa-solid fa-check"></i> Sound setup based on venue</li>
+                            <li><i class="fa-solid fa-check"></i> Music preference discussion</li>
+                            <li><i class="fa-solid fa-check"></i> Flexible duration options</li>
+                        </ul>
+                        <a href="contact.html?package=single" class="btn btn-card">
+                            Choose Single <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="package-card package-featured reveal">
+                        <span class="popular-badge"><i class="fa-solid fa-star"></i> POPULAR CHOICE</span>
+                        <div class="package-top">
+                            <span class="package-number">02 / DUO</span>
+                            <span class="package-icon"><i class="fa-solid fa-heart"></i></span>
+                        </div>
+                        <p class="package-label">MADE FOR TWO</p>
+                        <h3>Couple Experience</h3>
+                        <p class="package-description">
+                            Set the mood for anniversaries, engagements and
+                            special celebrations shared together.
+                        </p>
+                        <div class="package-price">
+                            <span>Starting from</span>
+                            <strong>₹7,999<small>+</small></strong>
+                        </div>
+                        <div class="package-divider"></div>
+                        <ul class="package-features">
+                            <li><i class="fa-solid fa-check"></i> Personalized music selection</li>
+                            <li><i class="fa-solid fa-check"></i> DJ and sound options</li>
+                            <li><i class="fa-solid fa-check"></i> Optional mood lighting</li>
+                            <li><i class="fa-solid fa-check"></i> Event-specific planning</li>
+                        </ul>
+                        <a href="contact.html?package=couple" class="btn btn-primary package-button">
+                            Choose Couple <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="package-card reveal">
+                        <div class="package-top">
+                            <span class="package-number">03 / TOGETHER</span>
+                            <span class="package-icon"><i class="fa-solid fa-people-group"></i></span>
+                        </div>
+                        <p class="package-label">EVERYONE TOGETHER</p>
+                        <h3>Family Celebration</h3>
+                        <p class="package-description">
+                            Bring every generation together with music and
+                            entertainment planned around your gathering.
+                        </p>
+                        <div class="package-price">
+                            <span>Starting from</span>
+                            <strong>₹11,999<small>+</small></strong>
+                        </div>
+                        <div class="package-divider"></div>
+                        <ul class="package-features">
+                            <li><i class="fa-solid fa-check"></i> Music for different age groups</li>
+                            <li><i class="fa-solid fa-check"></i> Venue-based sound setup</li>
+                            <li><i class="fa-solid fa-check"></i> Optional lighting setup</li>
+                            <li><i class="fa-solid fa-check"></i> Flexible event arrangements</li>
+                        </ul>
+                        <a href="contact.html?package=family" class="btn btn-card">
+                            Choose Family <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="package-card package-vip reveal">
+                        <div class="package-top">
+                            <span class="package-number">04 / SIGNATURE</span>
+                            <span class="package-icon"><i class="fa-solid fa-gem"></i></span>
+                        </div>
+                        <p class="package-label">THE PREMIUM EXPERIENCE</p>
+                        <h3>Premium / VIP</h3>
+                        <p class="package-description">
+                            An elevated event experience with enhanced production
+                            options and more room to personalize.
+                        </p>
+                        <div class="package-price">
+                            <span>Starting from</span>
+                            <strong>₹19,999<small>+</small></strong>
+                        </div>
+                        <div class="package-divider"></div>
+                        <ul class="package-features">
+                            <li><i class="fa-solid fa-check"></i> Premium DJ and sound options</li>
+                            <li><i class="fa-solid fa-check"></i> Enhanced lighting options</li>
+                            <li><i class="fa-solid fa-check"></i> Coordinated event planning</li>
+                            <li><i class="fa-solid fa-check"></i> Customizable service selection</li>
+                        </ul>
+                        <a href="contact.html?package=premium" class="btn btn-card">
+                            Choose Premium <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+
+                <p class="pricing-note">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Prices shown are starting estimates. Your final quote depends on the event date,
+                    venue, duration, guest count and selected services.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECTION 3: CUSTOM PACKAGE -->
+        <section class="custom-section section-space">
+            <div class="section-container custom-layout">
+                <div class="custom-visual reveal">
+                    <img src="Images/DJIMG6.jpg" alt="Crowd enjoying a live music event" loading="lazy">
+                    <div class="visual-tag"><i class="fa-solid fa-bolt"></i><span>YOUR NIGHT.<br>YOUR ENERGY.</span></div>
+                    <div class="visual-outline"></div>
+                </div>
+                <div class="custom-copy reveal">
+                    <span class="eyebrow"><span></span> YOUR EVENT, YOUR WAY</span>
+                    <h2>One Occasion.<br><span>Endless Possibilities.</span></h2>
+                    <p>
+                        Every event has its own atmosphere. Tell us what you're celebrating,
+                        what kind of music you love and the setup you have in mind.
+                        We'll help shape the right combination for your occasion.
+                    </p>
+                    <div class="custom-points">
+                        <div><span><i class="fa-solid fa-sliders"></i></span><p><strong>Flexible packages</strong><small>Choose the services that suit your event.</small></p></div>
+                        <div><span><i class="fa-solid fa-headphones"></i></span><p><strong>Your music preferences</strong><small>Share the sounds and atmosphere you want.</small></p></div>
+                        <div><span><i class="fa-solid fa-calendar-check"></i></span><p><strong>Event-specific planning</strong><small>Plan around your venue, schedule and guest count.</small></p></div>
+                    </div>
+                    <a href="contact.html?package=custom" class="btn btn-primary">
+                        Build My Package <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: ADD-ONS -->
+        <section class="addons-section section-space">
+            <div class="section-container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow"><span></span> MAKE IT YOURS</span>
+                    <h2>Enhance the <span>Experience.</span></h2>
+                    <p>Add extra services depending on your venue, event style and budget.</p>
+                </div>
+                <div class="addons-grid">
+                    <article class="addon-card reveal">
+                        <span class="addon-icon"><i class="fa-solid fa-volume-high"></i></span>
+                        <div><h3>Sound Upgrades</h3><p>Explore sound options that suit your space and audience size.</p></div>
+                        <i class="fa-solid fa-plus addon-plus"></i>
+                    </article>
+                    <article class="addon-card reveal">
+                        <span class="addon-icon"><i class="fa-solid fa-lightbulb"></i></span>
+                        <div><h3>Lighting Effects</h3><p>Add atmosphere and visual energy with optional lighting.</p></div>
+                        <i class="fa-solid fa-plus addon-plus"></i>
+                    </article>
+                    <article class="addon-card reveal">
+                        <span class="addon-icon"><i class="fa-solid fa-music"></i></span>
+                        <div><h3>Custom Music Plan</h3><p>Discuss your preferred genres, must-play songs and event mood.</p></div>
+                        <i class="fa-solid fa-plus addon-plus"></i>
+                    </article>
+                    <article class="addon-card reveal">
+                        <span class="addon-icon"><i class="fa-solid fa-clock"></i></span>
+                        <div><h3>Extended Duration</h3><p>Ask about longer DJ coverage for your event schedule.</p></div>
+                        <i class="fa-solid fa-plus addon-plus"></i>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: BOOKING PROCESS -->
+        <section class="process-section section-space">
+            <div class="section-container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow"><span></span> SIMPLE BOOKING</span>
+                    <h2>From First Message to <span>Event Day.</span></h2>
+                    <p>Three simple steps to start planning your event experience.</p>
+                </div>
+                <div class="process-grid">
+                    <article class="process-card reveal">
+                        <span class="process-number">01</span>
+                        <span class="process-icon"><i class="fa-regular fa-paper-plane"></i></span>
+                        <h3>Tell Us Your Plan</h3>
+                        <p>Share your event type, preferred date, venue and estimated guest count.</p>
+                    </article>
+                    <article class="process-card reveal">
+                        <span class="process-number">02</span>
+                        <span class="process-icon"><i class="fa-solid fa-list-check"></i></span>
+                        <h3>Choose Your Setup</h3>
+                        <p>Discuss package options, extra services, availability and final pricing.</p>
+                    </article>
+                    <article class="process-card reveal">
+                        <span class="process-number">03</span>
+                        <span class="process-icon"><i class="fa-solid fa-champagne-glasses"></i></span>
+                        <h3>Get Ready to Celebrate</h3>
+                        <p>Confirm the arrangements and get ready for your event.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: FAQ + CTA -->
+        <section class="faq-cta-section section-space">
+            <div class="section-container">
+                <div class="faq-layout">
+                    <div class="faq-intro reveal">
+                        <span class="eyebrow"><span></span> QUICK ANSWERS</span>
+                        <h2>Questions Before<br><span>You Book?</span></h2>
+                        <p>Here are a few things to know before choosing your package.</p>
+                        <a href="contact.html" class="text-link">Ask Us a Question <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="faq-list reveal">
+                        <article class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                Can I customize a package?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer"><p>Yes. You can discuss your event requirements and ask for a combination of suitable DJ, sound and lighting services.</p></div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                Are the displayed prices final?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer"><p>No. The listed prices are starting estimates. Final pricing depends on your date, venue, duration, guest count and selected services.</p></div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                How do I check availability?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer"><p>Use any package button or the contact page to share your event details and preferred date.</p></div>
+                        </article>
+                        <article class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                Can I request a specific music style?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer"><p>Absolutely. Share your preferred genres and special song requests while discussing your event plan.</p></div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="final-cta reveal">
+                    <div class="cta-glow"></div>
+                    <div class="final-cta-copy">
+                        <span class="eyebrow"><span></span> LET'S MAKE IT HAPPEN</span>
+                        <h2>Your Event Deserves<br><span>Its Own Soundtrack.</span></h2>
+                        <p>Tell us about your event and let's plan an experience worth remembering.</p>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary cta-button">
+                        Book Your Event <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+     <!-- VIBEDECK FOOTER START -->
+<footer class="vd-site-footer">
+    <div class="vd-footer-container">
+
+        <div class="vd-footer-grid">
+
+            <!-- Brand Column -->
+            <div class="vd-footer-brand-column">
+
+                <a href="index.html" class="vd-footer-brand">
+                    <img src="Images/Logo1.jfif"
+                         alt="VibeDeck Events Logo"
+                         class="vd-footer-logo">
+
+                    <span class="vd-footer-brand-text">
+                        <span class="vd-footer-brand-name">VIBEDECK</span>
+                        <span class="vd-footer-tagline">EVENT EXPERIENCES</span>
+                    </span>
+                </a>
+
+                <p class="vd-footer-description">
+                    Professional DJ booking, premium sound and immersive
+                    lighting experiences designed to make every event
+                    unforgettable.
+                </p>
+
+                <div class="vd-social-links">
+                    <a href="#" class="vd-social-link"
+                       aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="vd-social-link"
+                       aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="vd-social-link"
+                       aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Explore Column -->
+            <div class="vd-footer-column">
+                <h3 class="vd-footer-heading">Explore</h3>
+
+                <ul class="vd-footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="servicepage.html">Our Services</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Our Services Column -->
+            <div class="vd-footer-column">
+                <h3 class="vd-footer-heading">Our Services</h3>
+
+                <ul class="vd-footer-links">
+                    <li><a href="servicepage.html">DJ Booking</a></li>
+                    <li><a href="servicepage.html">Sound Rental</a></li>
+                    <li><a href="servicepage.html">Lighting Production</a></li>
+                    <li><a href="servicepage.html">Wedding Events</a></li>
+                    <li><a href="servicepage.html">Corporate Events</a></li>
+                </ul>
+            </div>
+
+            <!-- Get In Touch Column -->
+            <div class="vd-footer-column vd-contact-column">
+                <h3 class="vd-footer-heading">Get In Touch</h3>
+
+
+                <div class="vd-contact-item">
+                    <span class="vd-contact-icon">
+                        <i class="fa-regular fa-envelope"
+                           aria-hidden="true"></i>
+                    </span>
+                    <div>
+                        <span class="vd-contact-label">vibedeckevent@gmail.com</span>
+                        
+                    </div>
+                </div>
+
+                <div class="vd-contact-item">
+                    <span class="vd-contact-icon">
+                        <i class="fa-solid fa-phone"
+                           aria-hidden="true"></i>
+                    </span>
+                    <div>
+                        <span class="vd-contact-label">+910000000000</span>
+                      
+                    </div>
+                </div>
+
+                <div class="vd-contact-item">
+                    <span class="vd-contact-icon">
+                        <i class="fa-solid fa-location-dot"
+                           aria-hidden="true"></i>
+                    </span>
+                    <div>
+                        <span class="vd-contact-label">Hyderabad,India</span>
+                      
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="vd-footer-bottom">
+            <p>
+                © <span id="vdCopyrightYear"></span>
+                VibeDeck Events. All rights reserved.
+            </p>
+
+            <a href="contact.html" class="vd-footer-bottom-link">
+                Let’s Plan Your Event
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+    <script src="packages.js"></script>
+</body>
+</html>

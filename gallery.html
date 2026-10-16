@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | VibeDeck Events</title>
+    <meta name="description" content="Explore the VibeDeck Events gallery featuring DJ nights, weddings, celebrations, premium lighting and unforgettable event experiences.">
+    <meta name="theme-color" content="#090911">
+
+     <link rel="icon" type="image/png" href="Images/Logo1.jfif">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+
+    <!-- SAME VIBEDECK HEADER -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+
+            <a href="index.html" class="brand" aria-label="VibeDeck Events Home">
+               
+<span class="brand-mark">
+    <img src="Images/Logo1.jfif"
+         alt="VibeDeck Events Logo"
+         class="brand-logo">
+</span>
+
+                <span class="vd-brand-text">
+    <span class="vd-brand-name">VIBEDECK</span>
+    <span class="vd-brand-tagline">EVENT EXPERIENCES</span>
+</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn"
+                aria-label="Open navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <div class="nav-dropdown" id="homeDropdown">
+                    <button class="nav-link dropdown-toggle" id="homeDropdownBtn"
+                        aria-expanded="false">
+                        Home <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="index.html" class="dropdown-link">Home 1 – Classic</a>
+                        <a href="home2.html" class="dropdown-link">Home 2 – Premium</a>
+                    </div>
+                </div>
+
+                <a href="about.html" class="nav-link">About</a>
+                <a href="servicepage.html" class="nav-link">Services</a>
+                <a href="packages.html" class="nav-link">Packages</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="utility-btn" id="themeToggle"
+                    aria-label="Toggle dark and light mode" title="Dark / Light mode">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+
+                <button class="utility-btn" id="directionToggle"
+                    aria-label="Toggle text direction" title="Toggle LTR / RTL">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </button>
+
+                <a href="Booka event.html" class="btn btn-primary header-book">
+                    Book an Event <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+       
+<!-- SECTION 1: GALLERY HERO -->
+<section class="gallery-hero" id="galleryHero">
+    <div class="hero-slides">
+
+        <article class="hero-slide active">
+            <div class="hero-slide-content">
+                <span class="eyebrow">INSIDE VIBEDECK</span>
+                <h1>Every Beat.<br>Every <span>Moment.</span></h1>
+                <p>Step inside the energy, the atmosphere and the unforgettable moments that bring every event to life.</p>
+                <a href="#event-gallery" class="btn btn-primary">
+                    Explore the Gallery <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-slide-image">
+                <img src="Images/DJIMG3.jfif" alt="Energetic live concert">
+            </div>
+        </article>
+
+        <article class="hero-slide">
+            <div class="hero-slide-content">
+                <span class="eyebrow">FEEL THE ENERGY</span>
+                <h1>Own the Night.<br>Feel the <span>Music.</span></h1>
+                <p>From the first track to the final beat, discover the moments that make a dance floor unforgettable.</p>
+                <a href="#dj-nights" class="btn btn-primary">
+                    Discover DJ Nights <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-slide-image">
+                <img src="Images/DJ7.jpg" alt="DJ performing with colorful lights">
+            </div>
+        </article>
+
+        <article class="hero-slide">
+            <div class="hero-slide-content">
+                <span class="eyebrow">MOMENTS THAT MATTER</span>
+                <h1>Your Day.<br>Your Kind of <span>Magic.</span></h1>
+                <p>Beautiful celebrations, meaningful details and a soundtrack made for memories.</p>
+                <a href="#celebrations" class="btn btn-primary">
+                    View Celebrations <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-slide-image">
+                <img src="Images/DJ4.jfif" alt="Elegant wedding celebration">
+            </div>
+        </article>
+
+        <article class="hero-slide">
+            <div class="hero-slide-content">
+                <span class="eyebrow">MADE TO BE REMEMBERED</span>
+                <h1>Make It Loud.<br>Make It <span>Legendary.</span></h1>
+                <p>Powerful sound, immersive visuals and an atmosphere that turns an event into an experience.</p>
+                <a href="#production" class="btn btn-primary">
+                    Explore Production <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-slide-image">
+                <img src="Images/DJ5.jpg" alt="Live event stage and lighting">
+            </div>
+        </article>
+
+    </div>
+
+    <div class="hero-bottom">
+        <div class="hero-slide-label">
+            <span id="heroCurrent">01</span>
+            <span class="hero-count-line"></span>
+            <span>04 — VIBEDECK STORIES</span>
+        </div>
+
+        <div class="hero-controls">
+            <button id="heroPrev" aria-label="Previous slide">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div class="hero-dots" id="heroDots">
+                <button class="hero-dot active" data-slide="0" aria-label="Go to slide 1"></button>
+                <button class="hero-dot" data-slide="1" aria-label="Go to slide 2"></button>
+                <button class="hero-dot" data-slide="2" aria-label="Go to slide 3"></button>
+                <button class="hero-dot" data-slide="3" aria-label="Go to slide 4"></button>
+            </div>
+            <button id="heroNext" aria-label="Next slide">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+        <!-- SECTION 2: GALLERY INTRO -->
+        <section class="gallery-intro section-space" id="event-gallery">
+            <div class="section-container intro-layout">
+                <div class="intro-heading reveal">
+                    <span class="eyebrow"><span></span> THE VIBEDECK EXPERIENCE</span>
+                    <h2>Not Just Events.<br><span>Stories in Motion.</span></h2>
+                </div>
+                <div class="intro-copy reveal">
+                    <p>
+                        Every celebration has a different rhythm. Explore our collection
+                        of event inspiration, dance-floor energy, thoughtful details and
+                        production moments that help make every occasion feel unique.
+                    </p>
+                    <div class="intro-stats">
+                        <div><strong>01</strong><span>THE ENERGY</span></div>
+                        <div><strong>02</strong><span>THE DETAILS</span></div>
+                        <div><strong>03</strong><span>THE MEMORIES</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+        <!-- SECTION 4: WEDDINGS & CELEBRATIONS -->
+        <section class="gallery-section section-space" id="celebrations">
+            <div class="section-container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow"><span></span> MOMENTS THAT MATTER</span>
+                    <h2>Celebrations with <span>Meaning.</span></h2>
+                    <p>Personal touches and memorable atmospheres for life's special occasions.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <article class="gallery-card reveal">
+                        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1000&q=85"
+                            alt="Elegant wedding reception table arrangement" loading="lazy">
+                        <div class="gallery-card-shade"></div>
+                        <div class="gallery-card-info">
+                            <span>01 / WEDDINGS</span>
+                            <h3>Beautiful Beginnings</h3>
+                            <p>Details made for your day.</p>
+                        </div>
+                        <span class="gallery-card-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </article>
+
+                    <article class="gallery-card reveal">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1000&q=85"
+                            alt="Wedding celebration venue with elegant lighting" loading="lazy">
+                        <div class="gallery-card-shade"></div>
+                        <div class="gallery-card-info">
+                            <span>02 / SPECIAL DAYS</span>
+                            <h3>Made for Memories</h3>
+                            <p>Every detail has its moment.</p>
+                        </div>
+                        <span class="gallery-card-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </article>
+
+                    <article class="gallery-card reveal">
+                        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=85"
+                            alt="Colorful party decorations for a celebration" loading="lazy">
+                        <div class="gallery-card-shade"></div>
+                        <div class="gallery-card-info">
+                            <span>03 / CELEBRATIONS</span>
+                            <h3>Celebrate Your Way</h3>
+                            <p>Your occasion, your style.</p>
+                        </div>
+                        <span class="gallery-card-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: CORPORATE & PRIVATE EVENTS -->
+        <section class="gallery-section section-space" id="private-events">
+            <div class="section-container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow"><span></span> EVERY OCCASION, A NEW VIBE</span>
+                    <h2>From Private Parties to <span>Big Events.</span></h2>
+                    <p>Explore ideas for gatherings that deserve a thoughtful and engaging experience.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <article class="gallery-card reveal">
+                        <img src="Images/Images6.jpg"
+                            alt="Professional event setup in a conference venue" loading="lazy">
+                        <div class="gallery-card-shade"></div>
+                        <div class="gallery-card-info">
+                            <span>01 / CORPORATE</span>
+                            <h3>Events with Purpose</h3>
+                            <p>Professional, polished and engaging.</p>
+                        </div>
+                        <span class="gallery-card-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </article>
+
+                    <article class="gallery-card reveal">
+                        <img src="Images/Homeimg4.jfif"
+                            alt="Friends celebrating together at a party" loading="lazy">
+                        <div class="gallery-card-shade"></div>
+                        <div class="gallery-card-info">
+                            <span>02 / PRIVATE PARTIES</span>
+                            <h3>Your People. Your Night.</h3>
+                            <p>Good company, great memories.</p>
+                        </div>
+                        <span class="gallery-card-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </article>
+
+                    <article class="gallery-card reveal">
+                        <img src="Images/Homeimg6.jpg"
+                            alt="Outdoor party venue arranged for guests" loading="lazy">
+                        <div class="gallery-card-shade"></div>
+                        <div class="gallery-card-info">
+                            <span>03 / OUTDOOR EVENTS</span>
+                            <h3>Take the Party Outside</h3>
+                            <p>Fresh settings, new possibilities.</p>
+                        </div>
+                        <span class="gallery-card-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: DETAIL & ATMOSPHERE -->
+        <section class="details-section section-space" id="details">
+            <div class="section-container details-layout">
+                <div class="details-copy reveal">
+                    <span class="eyebrow"><span></span> THE LITTLE THINGS</span>
+                    <h2>It's All in<br><span>The Details.</span></h2>
+                    <p>
+                        A great event is more than a playlist. It's the feeling when
+                        the lights come on, the room fills up and every part of the
+                        experience comes together.
+                    </p>
+                    <a href="services.html" class="btn btn-primary">
+                        Explore Our Services <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="details-mosaic reveal">
+                    <div class="mosaic-image mosaic-one">
+                        <img src="Images/DJ7.jpg"
+                            alt="DJ equipment ready for an event" loading="lazy">
+                    </div>
+                    <div class="mosaic-image mosaic-two">
+                        <img src="Images/DJ5.jpg"
+                            alt="Event venue prepared for a special occasion" loading="lazy">
+                    </div>
+                    <div class="mosaic-caption">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span>DESIGNED FOR THE MOMENT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 8: FINAL CTA -->
+        <section class="gallery-cta-section section-space">
+            <div class="section-container">
+                <div class="gallery-cta reveal">
+                    <div class="gallery-cta-glow"></div>
+                    <div class="gallery-cta-copy">
+                        <span class="eyebrow"><span></span> YOUR MOMENT STARTS HERE</span>
+                        <h2>Let's Create Your<br><span>Next Great Memory.</span></h2>
+                        <p>Tell us about your occasion and let's build an event experience around your vision.</p>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">
+                        Plan Your Event <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- VIBEDECK FOOTER START -->
+<footer class="vd-site-footer">
+    <div class="vd-footer-container">
+
+        <div class="vd-footer-grid">
+
+            <!-- Brand Column -->
+            <div class="vd-footer-brand-column">
+
+                <a href="index.html" class="vd-footer-brand">
+                    <img src="Images/Logo1.jfif"
+                         alt="VibeDeck Events Logo"
+                         class="vd-footer-logo">
+
+                    <span class="vd-footer-brand-text">
+                        <span class="vd-footer-brand-name">VIBEDECK</span>
+                        <span class="vd-footer-tagline">EVENT EXPERIENCES</span>
+                    </span>
+                </a>
+
+                <p class="vd-footer-description">
+                    Professional DJ booking, premium sound and immersive
+                    lighting experiences designed to make every event
+                    unforgettable.
+                </p>
+
+                <div class="vd-social-links">
+                    <a href="#" class="vd-social-link"
+                       aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="vd-social-link"
+                       aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="vd-social-link"
+                       aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Explore Column -->
+            <div class="vd-footer-column">
+                <h3 class="vd-footer-heading">Explore</h3>
+
+                <ul class="vd-footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="servicepage.html">Our Services</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Our Services Column -->
+            <div class="vd-footer-column">
+                <h3 class="vd-footer-heading">Our Services</h3>
+
+                <ul class="vd-footer-links">
+                    <li><a href="servicepage.html">DJ Booking</a></li>
+                    <li><a href="servicepage.html">Sound Rental</a></li>
+                    <li><a href="servicepage.html">Lighting Production</a></li>
+                    <li><a href="servicepage.html">Wedding Events</a></li>
+                    <li><a href="servicepage.html">Corporate Events</a></li>
+                </ul>
+            </div>
+
+            <!-- Get In Touch Column -->
+            <div class="vd-footer-column vd-contact-column">
+                <h3 class="vd-footer-heading">Get In Touch</h3>
+
+
+                <div class="vd-contact-item">
+                    <span class="vd-contact-icon">
+                        <i class="fa-regular fa-envelope"
+                           aria-hidden="true"></i>
+                    </span>
+                    <div>
+                        <span class="vd-contact-label">vibedeckevent@gmail.com</span>
+                        
+                    </div>
+                </div>
+
+                <div class="vd-contact-item">
+                    <span class="vd-contact-icon">
+                        <i class="fa-solid fa-phone"
+                           aria-hidden="true"></i>
+                    </span>
+                    <div>
+                        <span class="vd-contact-label">+910000000000</span>
+                      
+                    </div>
+                </div>
+
+                <div class="vd-contact-item">
+                    <span class="vd-contact-icon">
+                        <i class="fa-solid fa-location-dot"
+                           aria-hidden="true"></i>
+                    </span>
+                    <div>
+                        <span class="vd-contact-label">Hyderabad,India</span>
+                      
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="vd-footer-bottom">
+            <p>
+                © <span id="vdCopyrightYear"></span>
+                VibeDeck Events. All rights reserved.
+            </p>
+
+            <a href="contact.html" class="vd-footer-bottom-link">
+                Let’s Plan Your Event
+            </a>
+        </div>
+
+    </div>
+</footer>
+<!-- VIBEDECK FOOTER END -->
+    <script src="gallery.js"></script>
+</body>
+</html>
